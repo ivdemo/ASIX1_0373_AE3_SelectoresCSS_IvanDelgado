@@ -1,0 +1,74 @@
+/* Este es el codigo de google fonts el cual aplicamos a todo el archivo HTML mediante el selector universal "*" */
+* {
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    }
+
+/* Aqui le aplicaremos a todo el body del archivo HTML un margen de 0 y unos espaciados laterales de un 20% */    
+body {
+    margin: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/* Aqui le aplicaremos a todos los "h1" del archivo un subrayado de color cian oscuro y alinearemos el texto al centro */
+h1 {
+    text-decoration: underline;
+    color: darkcyan;
+    text-align: center;
+}
+
+/* Aqui le aplicaremos a la clase "selector" un colo cian claro */
+.selector {
+    color: lightcyan;
+}
+
+/* Aqui le aplicaremos a la clase "selectors" un espaciado del 5% y un borde de 1px de grosor de color cian oscuro seguido de un bordeado de 5px */
+.selectors {
+    padding: 5%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
+
+/* Aqui le aplicaremos al id "universal" el color "lightgoldenrodyellow" */
+#universal {
+    color: lightgoldenrodyellow
+}
+
+/* Aqui le aplicaremos a todos los "h2" que tengan la clase "selector" o el id "universal" un fondo cian oscuro con un espaciado del 1% y un bordeado de 5px */
+h2.selector, h2#universal {
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+}
+ /* Aqui le aplicaremos a todos los elementos "span" un tamaño de 900 con un fondo negro y color de texto blanco */
+span {
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
+
+/* Aqui le aplicaremos a todos los "a" que sean hijos directos de un "li" que no tengan ninguna decoracion */
+li > a {
+    text-decoration: none;
+}
+
+/* Aqui le aplicaremos a todos los "h3" un fondo del color determinado con el patron rgba, un espaciado de 0,5px y un bordeado de 5px */
+h3 {
+    background-color:  rgba(0, 139, 139, 0.529);
+    padding: 0.5px;
+    border-radius: 5px;
+}
+
+/* Aqui le aplicaremos a todos los "div" que sean descendientos de un elemnto con el id "gallery" un tamaño del 100% */
+#gallery div {
+    width: 100%;
+}
+ /* Aqui le aplicaremos a todas las fotos un tamaó del 100%, un borde cian oscuro de 1px de grosor y un bordeado de 5px */
+img {
+    width: 100%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
